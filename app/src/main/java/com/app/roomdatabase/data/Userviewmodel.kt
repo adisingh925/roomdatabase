@@ -1,4 +1,4 @@
-package com.app.roomdatabase
+package com.app.roomdatabase.data
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -10,7 +10,7 @@ import com.app.roomdatabase.data.userDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class userviewmodel(application: Application) : AndroidViewModel(application) {
+class Userviewmodel(application: Application) : AndroidViewModel(application) {
 
     private val readalldata : LiveData<List<User>>
 
