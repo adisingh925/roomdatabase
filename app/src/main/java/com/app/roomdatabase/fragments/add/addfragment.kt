@@ -1,4 +1,4 @@
-package com.app.roomdatabase.add
+package com.app.roomdatabase.fragments.add
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,8 +9,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.app.roomdatabase.R
-import com.app.roomdatabase.data.User
-import com.app.roomdatabase.data.Userviewmodel
+import com.app.roomdatabase.model.User
+import com.app.roomdatabase.viewmodel.Userviewmodel
 import com.app.roomdatabase.databinding.FragmentAddfragmentBinding
 
 
